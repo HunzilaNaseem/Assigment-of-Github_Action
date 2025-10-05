@@ -31,9 +31,9 @@ There are two GitHub Actions workflows in this project:
 
 1. **Run Script Workflow** (`run-script.yml`)  
    - Triggered on `push` to the `main` branch  
-   - It checks out the code and runs `run.sh`  
+   - It checks out the code and runs `main.sh`  
 
-2. **Lint & Test Workflow** (`lint-and-test.yml`)  
+2. **Lint & Test Workflow** (`test and lint.yml`)  
    - Triggered on `push` (and possibly `pull_request`) to `main`  
    - Installs dependencies  
    - Runs `npm run lint`  
@@ -47,17 +47,17 @@ If you want to test things on your local setup:
 
 ```bash
 # Clone this repository
-git clone https://github.com/AbdulAhad390/Github-actions-Assignment.git
+git clone https://HunzilaNaseem/Assigment-of-Github_Action.git
 cd Github-actions-Assignment
 
 # Make sure run.sh is executable
-chmod +x run.sh
+chmod +x main.sh
 
 # Install dependencies
 npm install
 
 # Run the greeting script
-./run.sh
+./main.sh
 
 # Run lint
 npm run lint
