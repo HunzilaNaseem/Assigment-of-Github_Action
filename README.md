@@ -68,5 +68,5 @@ npm test
 
 ## 👤 Author
 
-* **Abdul Ahad**
+* **Hunzila Bin Naseem**
 ----
